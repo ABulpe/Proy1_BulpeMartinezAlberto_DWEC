@@ -200,6 +200,7 @@ a{
 }
 
 .ul__li--footer{
+    margin: 2px;
     list-style-type: none;
     text-align: center;
     justify-self: end;

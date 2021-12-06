@@ -5,64 +5,71 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
     <title>Login</title>
 </head>
 <body>
 
-<header>
-    <a href=""><img src="./img/logo2.png" ></a>
-    <nav>
-        <ul>
-            <li><a href="">LISTA DE CARTAS</a></li>
-            <li><a href="">DECKS</a></li>
-            <li><a href="">PRODUCTOS</a></li>
-            <li><a href="">NOTICIAS</a></li>
-            <li>
-                <img src="" alt="">
-                <span><a href="">LOGIN</a></span>
+<header class="header" id="header">
+    <a href="" ><img src="./img/logo2.png" class="header__title" ></a>
+    <nav class="header__nav">
+        <ul class="nav__ul">
+            <li><a href="" class="li__a">LISTA DE CARTAS</a></li>
+            <li><a href="" class="li__a">DECKS</a></li>
+            <li><a href="" class="li__a">PRODUCTOS</a></li>
+            <li><a href="" class="li__a">NOTICIAS</a></li>
+            <li class="ul__li">
+                <span class="ul__span"><a href="" class="li__a">LOGIN</a></span>
+                <img class="li__img" src="./img/digivice.png">
             </li>
         </ul>
     </nav>
 </header>
 
-<main>
-    <section>
-        <h2>Digitamers</h2>
-        <h3>INICIO DE SESIÓN</h3>
-
-        <form action="">
-            <label for="username">
-                <span></span>
-                <input type="text" name="username" id="username">
+<main class="main">
+    <section class="main__section">
+        <div class="section__div">
+            <img src="./img/logo2.png" class="div__img">
+            <h3 class="div__h3">INICIO DE SESIÓN</h3>
+        </div>
+        <form action="" class="section__form">
+            <label for="username" class="form__label">
+                <span class="label__span"><img src="./img/agumon.png" class="span__img"></span>
+                <input class="form__input" type="text" name="username" id="username" placeholder=" Nombre de usuario">
             </label>
-            <label for="password" >
-                <span></span>
-                <input type="password" name="password" id="password">
+            <label for="password" class="form__label" >
+                <span class="label__span"><img src="./img/agumon.png" class="span__img--password"></span>
+                <input class="form__input" type="password" name="password" id="password" placeholder=" Contraseña">
             </label>
-            <label for="remind">
-                <input type="checkbox" name="remind" id="remind"><span>Recordad Contraseña</span>
+            <label for="remind" class="form__label--checkbox" >
+                <input class="form__input--checkbox" type="checkbox" name="remind" id="remind"><span class="label__span--checkbox">Recordad Contraseña</span>
             </label>
-            <button type="submit">LOGIN</button>
+            <button class="form__button" type="submit">LOGIN</button>
         </form>
-        <span>¿No tienes una cuenta?<a>Registrate</a></span>
-        <span>¿Has olvidado la contraseña?</span>
+        <div class="section__div--span">
+            <span class="form__span">¿No tienes una cuenta?<a class="span__a" href="">Registrate.</a></span>
+            <span class="form__span">¿Has olvidado la contraseña?</span>
+
+        </div>
 
     </section>
 </main>
 
-<footer>
+<footer class="footer">
+    <a href="#header"><img class="footer__img" src="./img/digivice.png"></a>
     <ul>
-        <li><a href="">POLITICA DE PRIVACIDAD</a></li>
-        <li><a href="">AVISO LEGAL</a></li>
-        <li><a href="">POLITICA DE COOKIES</a></li>
-        <li><a href="">CONTACTANOS</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">POLITICA DE PRIVACIDAD</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">AVISO LEGAL</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">POLITICA DE COOKIES</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">CONTACTANOS</a></li>
     </ul>
-    <ul>
-        <li><a href=""><span class="iconify" data-icon="eva:facebook-outline"></span></a></li>
-        <li><a href=""><span class="iconify" data-icon="eva:twitter-outline"></span></a></li>
-        <li><a href=""><span class="iconify" data-icon="bi:instagram"></span></a></li>
+    <ul  class="footer__ul">
+        <li  class="ul__li--footer"><a href="" class="li__i--footer" id=""><span class="iconify" data-icon="eva:facebook-outline"></span></a></li>
+        <li  class="ul__li--footer"><a href="" class="li__i--footer"><span class="iconify"  data-icon="bi:instagram"></span></a></li>
+        <li  class="ul__li--footer"><a href="" class="li__i--footer"><span class="iconify"  data-icon="eva:twitter-outline"></span></a></li>
     </ul>
 </footer>
+
 
 <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
