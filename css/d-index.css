@@ -4,12 +4,12 @@
     --orange: #FFAF52;
     --fblack: rgba(0,0,0,.7);
     --white: #FFFFFF;
+    --black: black;
 }
 ::selection {
     background-color: var(--orange);
     color: var(--white);
 }
-
 *{
     font-family: "Pixel Digivolve";
     font-style: italic;
@@ -19,7 +19,7 @@
 
 }
 body{
-    background-image: url("../img/wallpaper1.png");
+    background-image: url("../img/wallpaper2.png");
     background-repeat: no-repeat;
     background-attachment: fixed ;
 
@@ -28,7 +28,7 @@ a{
     text-decoration: none;
 }
 .header{
-    background-color: var(--blue) ;
+    background-color: var(--black) ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,8 +82,11 @@ a{
 
 .li__i--dm{
     font-size: xx-large;
-    transform: rotate(180deg);
+    color: white;
+    transform: rotate(900deg);
     transition: 2s;
+
+
 }
 
 
@@ -133,33 +136,34 @@ a{
 }
 
 .div__img--CL{
-    width: 122%;
+    width: 123%;
     height: 100%;
     left: -76px;
     position: absolute;
 }
 
 .div__img--D{
-    width: 123%;
-    height: 100%;
-    left: -76px;
-    left: -77px;
+    width: 122%;
+    height: 120%;
+    left: -60px;
+    bottom: -60px;
     position: absolute;
 }
 
 .div__img--P{
-    width: 123%;
+    width: 125%;
     height: 200%;
-    top: -40px;
-    left: -18px;
+    top: -140px;
+    left: -50px;
     position: absolute;
 }
 
 .div__img--N{
     width: 125%;
-    height: 100%;
+    height: 130%;
     position: absolute;
-    left: -75px;
+    left: -70px;
+    top: -20px;
 
 
 }

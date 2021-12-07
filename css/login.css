@@ -5,7 +5,10 @@
     --white: #FFFFFF;
     --oblue: rgba(47, 105, 255, 0.7);
 }
-
+::selection {
+    background-color: var(--orange);
+    color: var(--white);
+}
 *{
     font-family: "Pixel Digivolve";
     font-style: italic;
@@ -197,7 +200,7 @@ a{
     filter: brightness(0.3);
 }
 
-.form__input{
+.label__input{
     width: 100%;
     border: 2px black solid;
     border-top-right-radius: 20px;

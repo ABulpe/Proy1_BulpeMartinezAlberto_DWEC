@@ -2,53 +2,57 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>ContactUs</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/contactUs.css" type="text/css">
+    <title>Contact-us</title>
 </head>
 <body>
-<header>
-    <a href=""><img src="./img/logo2.png" ></a>
-    <nav>
-        <ul>
-            <li><a href="">LISTA DE CARTAS</a></li>
-            <li><a href="">DECKS</a></li>
-            <li><a href="">PRODUCTOS</a></li>
-            <li><a href="">NOTICIAS</a></li>
-            <li>
-                <img src="" alt="">
-                <span><a href="">LOGIN</a></span>
+<header class="header" id="header">
+    <a href="index.html" ><img src="./img/logo2.png" class="header__title" ></a>
+    <nav class="header__nav">
+        <ul class="nav__ul">
+            <li><a href="" class="li__a">LISTA DE CARTAS</a></li>
+            <li><a href="" class="li__a">DECKS</a></li>
+            <li><a href="" class="li__a">PRODUCTOS</a></li>
+            <li><a href="" class="li__a">NOTICIAS</a></li>
+            <li class="ul__li">
+                <span class="ul__span"><a href="" class="li__a">LOGIN</a></span>
+                <img class="li__img" src="./img/digivice.png">
             </li>
         </ul>
     </nav>
 </header>
-<main>
-    <section>
-        <div>
-            <h2>CONTACTANOS</h2>
-            <h3>Envianos un mensaje</h3>
-            <p>Envianos un mensaje y te respondemos en 24 horas/p>
-            <form action="">
-                <label for="name">
-                    <span>Nombre:</span>
-                    <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+<main class="main">
+    <section class="main__section">
+        <div class="section__div">
+            <h2 class="div__h2">CONTACTANOS</h2>
+            <h3 class="div__h3">Envianos un mensaje</h3>
+            <p class="div__p">Envianos un mensaje y te respondemos en 24 horas/p>
+            <form action="" class="section__form">
+                <label for="name" class="form__label">
+                    <span class="form__span">Nombre:</span>
+                    <input class="label__input" type="text" name="name" id="name" placeholder="Nombre Completo" required>
                 </label>
-                <label for="email">
-                    <span>Email:</span>
-                    <input type="email" name="email" id="email" placeholder="Escribe tu Email" required>
+                <label for="email" class="form__label">
+                    <span class="label__span">Email:</span>
+                    <input class="label__input" type="email" name="email" id="email" placeholder="Escribe tu Email" required>
                 </label>
-                <label for="phone">
-                    <span>Telefono:</span>
-                    <input type="text" name="phone" id="phone" placeholder="Número de telefono" required>
+                <label for="phone" class="form__label">
+                    <span class="label__span">Telefono:</span>
+                    <input class="label__input" type="text" name="phone" id="phone" placeholder="Número de telefono" required>
                 </label>
 
-                <label for="location">
-                    <span>Localidad</span>
-                    <input type="text" name="location" id="location" placeholder="Escribe tu localidad" required>
+                <label for="location" class="form__label">
+                    <span class="label__span">Localidad</span>
+                    <input class="label__input" type="text" name="location" id="location" placeholder="Escribe tu localidad" required>
                 </label>
-                <textarea placeholder="Escribe tu mensaje aquí"></textarea>
-                <button type="submit">ENVIAR</button>
+                <textarea class="form__textArea" placeholder="Escribe tu mensaje aquí"></textarea>
+                <button class="form__button" type="submit">ENVIAR</button>
             </form>
         </div>
-        <div>
+        <div class="section__div--info">
             <h3>INFORMACIÓN DE CONTACTO</h3>
             <p><span class="iconify" data-icon="clarity:map-marker-solid"></span>C/Amiel,s/n,11012</p>
             <p><span class="iconify" data-icon="clarity:email-solid" style="color: black;"></span>abulmar019@gmail.com</p>
@@ -61,17 +65,18 @@
         </div>
     </section>
 </main>
-<footer>
+<footer class="footer">
+    <a href="#header"><img class="footer__img" src="./img/digivice.png"></a>
     <ul>
-        <li><a href="">POLITICA DE PRIVACIDAD</a></li>
-        <li><a href="">AVISO LEGAL</a></li>
-        <li><a href="">POLITICA DE COOKIES</a></li>
-        <li><a href="">CONTACTANOS</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">POLITICA DE PRIVACIDAD</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">AVISO LEGAL</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">POLITICA DE COOKIES</a></li>
+        <li class="ul__li--footer"><a class="li__a--footer" href="">CONTACTANOS</a></li>
     </ul>
-    <ul>
-        <li><a href=""><span class="iconify" data-icon="eva:facebook-outline"></span></a></li>
-        <li><a href=""><span class="iconify" data-icon="eva:twitter-outline"></span></a></li>
-        <li><a href=""><span class="iconify" data-icon="bi:instagram"></span></a></li>
+    <ul  class="footer__ul">
+        <li  class="ul__li--footer"><a href="" class="li__i--footer" id=""><span class="iconify" data-icon="eva:facebook-outline"></span></a></li>
+        <li  class="ul__li--footer"><a href="" class="li__i--footer"><span class="iconify"  data-icon="bi:instagram"></span></a></li>
+        <li  class="ul__li--footer"><a href="" class="li__i--footer"><span class="iconify"  data-icon="eva:twitter-outline"></span></a></li>
     </ul>
 </footer>
 
