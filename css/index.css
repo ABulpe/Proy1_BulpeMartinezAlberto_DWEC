@@ -234,4 +234,21 @@ a{
     font-size: xx-large;
 }
 
+@media(max-height: 768px){
+    .section__div{
+        overflow: hidden;
+        margin: 60px auto;
+        border: 10px inset rgba(0, 0, 0, 0.58);
+        transform: skewX(-25deg);
+        width: 600px ;
+        height: 250px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: flex-end;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+
+    }
+}
+
 
