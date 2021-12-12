@@ -175,6 +175,7 @@ a{
 
 }
 
+
 .label__span{
     background-color: var(--blue);
     width: 20%;
@@ -198,6 +199,7 @@ a{
     border-bottom-left-radius: 20px ;
     border-right: 1px;
 }
+
 
 
 
@@ -231,6 +233,7 @@ a{
     font-style: normal;
     font-size: x-large;
     padding-left: 20px;
+
 }
 
 .form__input--checkbox{
@@ -252,6 +255,7 @@ a{
     color: var(--orange);
     font-size: xx-large;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .form__span{
@@ -314,3 +318,10 @@ a{
     font-size: xx-large;
 }
 
+.invalid{
+    background-color: #fc7a7a;
+}
+
+.error{
+    color: red;
+}
