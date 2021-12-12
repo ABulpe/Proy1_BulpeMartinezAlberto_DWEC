@@ -34,7 +34,7 @@ output.setAttribute("class","error")
 const login_validate=(users,username,password)=>{ debugger;
     let exist = false;
     for(let user of users){
-        if(user.username === username.value && user.password === password) exist=true;
+        if(user.username === username.value && user.pass === password.value) exist=true;
     }
     if(exist){
         return true;
