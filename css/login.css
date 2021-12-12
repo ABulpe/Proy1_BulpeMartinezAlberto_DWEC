@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Pixel Digivolve";
+    src: url(../fonts/PixelDigivolve.otf);
+}
 :root{
     --blue: #2F69FF;
     --orange: #FFAF52;

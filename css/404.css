@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Pixel Digivolve";
+    src: url(../fonts/PixelDigivolve.otf);
+}
 body{
     background-color: #bfe9ff;
 }
