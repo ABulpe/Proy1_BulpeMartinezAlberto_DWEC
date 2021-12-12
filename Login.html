@@ -32,7 +32,7 @@
             <img src="./img/logo2.png" class="div__img">
             <h3 class="div__h3">INICIO DE SESIÓN</h3>
         </div>
-        <form action="" class="section__form">
+        <form action="/index.html" class="section__form" onsubmit="return login_validate(users)">
             <label for="username" class="form__label">
                 <span class="label__span"><img src="./img/agumon.png" class="span__img"></span>
                 <input class="label__input" type="text" name="username" id="username" placeholder=" Nombre de usuario">
@@ -69,7 +69,7 @@
     </ul>
 </footer>
 
-
+<script type="text/javascript" src="./js/login.js"></script>
 <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 </body>
 </html>

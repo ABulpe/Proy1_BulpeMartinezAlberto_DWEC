@@ -1,0 +1,111 @@
+body{
+    background-color: #bfe9ff;
+}
+
+
+.error__span{
+    font-family: "Pixel Digivolve";
+    color: orange;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 15em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.main__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error__img{
+   height: 170px;
+    margin-left: 10px;
+
+}
+
+.error__img--volver{
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+
+}
+.div__p{
+    font-family: "Pixel Digivolve";
+    color: orange;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2em;
+
+}
+
+.volver__p{
+    font-family: "Pixel Digivolve";
+    color: orange;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.5em;
+    position: relative;
+    top: -10px;
+}
+
+.volver {
+    position: absolute;
+    align-self: flex-end;
+    top: 750px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*Animations*/
+
+
+.error__img {
+    animation: shake 1s  infinite;
+}
+
+.error__img--volver:hover{
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+/* Play sound */
+
+embed{
+    height: 0;
+    width: 0;
+
+}
+
+

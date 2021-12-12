@@ -230,6 +230,7 @@ a{
     -webkit-text-stroke-color: black;
     color: var(--orange);
     font-size: xx-large;
+    cursor: pointer;
 
 
 
@@ -295,3 +296,6 @@ a{
     font-size: xx-large;
 }
 
+.error{
+    color: red;
+}
